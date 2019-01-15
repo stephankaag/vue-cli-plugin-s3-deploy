@@ -177,7 +177,7 @@ async function invalidateDistribution (options) {
     error(`AWS Request ID: ${err.requestId}`)
     throw err
   } finally {
-    stopSpinner()
+//    stopSpinner()
   }
 }
 
